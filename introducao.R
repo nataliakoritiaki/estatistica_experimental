@@ -24,3 +24,7 @@ attach(dados)
 
 dados_2 <- edit(data.frame())
 attach(dados_2)
+
+library(gsheet)
+dados_3 <- gsheet2tbl('https://docs.google.com/spreadsheets/d/13_JObv8B1d5hRSstmUkmegXRcZXPez-ec1CRfMD0sOc/edit?usp=sharing')
+attach(dados_3)
